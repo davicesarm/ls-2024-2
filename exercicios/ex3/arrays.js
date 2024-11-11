@@ -44,15 +44,7 @@ function zip(...arrs) {
 }
 
 function uniq(arr) {
-    // return [...new Set(arr)];
-    const unique = [];
-
-    for (let i = 0; i < arr.length; i++) {
-        if (!unique.includes(arr[i])) {
-            unique.push(arr[i]);
-        }
-    }
-    return unique;
+    return [...new Set(arr)];
 }
 
 function sortNum(arr) {
