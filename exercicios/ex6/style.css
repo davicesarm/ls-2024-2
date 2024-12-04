@@ -23,13 +23,11 @@ main {
     flex-direction: column;
     width: 100px;
     align-items: center;
-}
-
-.flag img {
     transition: ease 200ms;
+    text-align: center;
 }
 
-.flag img:hover {
+.flag:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
