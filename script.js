@@ -44,10 +44,11 @@ for (const exercicio of exercicios) {
 
     htmlContent += `
         <div class="exercicio">
-            <h2>${nomeExercicio}</h2>
+            <h2><a href="${preview}" target="_blank">${nomeExercicio}</a></h2>
+            
             <div class="links">
-                <a href="${preview}">Preview</a>
-                <a href="${exercicioLink}">Link do exercicio</a>
+                <a href="${preview}" target="_blank">Preview</a>
+                <a href="${exercicioLink}" target="_blank">Link do exercicio</a>
             </div>
         </div>
     `;

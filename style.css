@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -9,15 +10,19 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: "Inter", sans-serif;
+    background-color: #222;
+    color: #fff;
 }
 
 h1 {
     margin-bottom: 80px;
     margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
 }
 
 main {
-    width: 60%;
+    max-width: 800px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -30,7 +35,8 @@ main {
 }
 
 .exercicio {
-    border: 1px solid black;
+    background-color: #333;
+    border: 1px solid gray;
     padding: 10px 20px;
     border-radius: 8px;
     width: 300px;
@@ -38,6 +44,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     gap: 30px;
+    position: relative;
 }
 
 .links {
@@ -46,15 +53,23 @@ main {
 }
 
 .links a {
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid gray;
     padding: 5px 10px;
     border-radius: 9999px;
     transition: ease 100ms;
 }
 
+
 .links a:hover {
-    background-color: black;
+    background-color: #aaa;
+    color: #3c3c3c;
+}
+
+h2 a {
     color: white;
+}
+
+h2 a:hover {
+    text-decoration: underline;
 }
