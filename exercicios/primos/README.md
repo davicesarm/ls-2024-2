@@ -1,4 +1,9 @@
-# Exercicio 2
+---
+exercicio:
+    name: Verificação de Número Primo
+    link: https://ifpb.github.io/exercises/problems/function-prime/
+preview: https://github.com/davicesarmorais/ls-2024-2/blob/main/exercicios/primos/
+---
 
-## Verificar se o número é primo
-- Não achei o link
+## Verificação de Número Primo
+- https://ifpb.github.io/exercises/problems/function-prime/

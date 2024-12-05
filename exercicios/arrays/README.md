@@ -1,4 +1,9 @@
-# Exercicio 3
+---
+exercicio:
+    name: Utilitários de Array
+    link: https://ifpb.github.io/exercises/problems/array-util/
+preview: https://github.com/davicesarmorais/ls-2024-2/blob/main/exercicios/arrays/arrays.js
+---
 
 ## Utilitários de Array
 - https://ifpb.github.io/exercises/problems/array-util/
