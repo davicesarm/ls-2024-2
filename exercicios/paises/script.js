@@ -7,7 +7,7 @@ const countries = await response.json();
 function createFlagBox(country, countries) {
     return `
     <div class='flag'>
-        <img src='https://raw.githubusercontent.com/hampusborgos/country-flags/refs/heads/main/png100px/${country.toLowerCase()}.png'>
+        <img src='https://raw.githubusercontent.com/hampusborgos/country-flags/refs/heads/main/svg/${country.toLowerCase()}.svg'>
         <p>${countries[country]}</p>
     </div>
     `;
