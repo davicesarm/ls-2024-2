@@ -68,7 +68,6 @@ function pushExercicios(exercicios) {
         
         (async () => {let readme;
             try {
-                await new Promise((resolve) => setTimeout(resolve, 500));
                 const responseReadme = await fetch(exercicio);
                 readme = await responseReadme.text();
             } catch (error) {
