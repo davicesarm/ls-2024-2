@@ -35,7 +35,7 @@ function createForm() {
     input.placeholder = placeholder;
     input.type = "text";
     input.className =
-      "max-w-full border border-neutral-700 rounded-xs p-2 w-full outline-none focus:border-neutral-500 select-none";
+      "max-w-full border border-solid border-neutral-700 rounded-xs p-2 w-full outline-none focus:border-neutral-500 select-none";
     return input;
   }
 
